@@ -1,0 +1,12 @@
+build
+vendor/rails
+tmp
+doc/guides
+*.sqlite3
+log/*
+*.log
+*.tmproj
+*.swp
+*.swo
+*.DS_Store
+.rvmrc

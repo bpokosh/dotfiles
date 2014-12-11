@@ -1,0 +1,6 @@
+---
+gem: --no-ri --no-rdoc
+verbose: true
+sources:
+- https://gems.covermymeds.com
+- https://rubygems.org
