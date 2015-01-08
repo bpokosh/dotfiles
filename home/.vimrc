@@ -3,10 +3,11 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 
-" config for Airline plugin
-let g:airline_enable_fugitive=1
-let g:airline_theme='badwolf'
-let g:airline_powerline_fonts=1
+" config for Lightline plugin
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ }
+
 set ttimeoutlen=50
 
 set splitbelow " horz splits open downwards
@@ -26,12 +27,13 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-commentary'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'
+Plugin 'itchyny/lightline.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'nanotech/jellybeans.vim'
+Plugin 'edkolev/tmuxline.vim'
 call vundle#end()
 
 syntax enable                     " Turn on syntax highlighting.
