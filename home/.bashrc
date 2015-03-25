@@ -32,3 +32,6 @@ alias gpr='git push -u && egit pull-request'
 alias egit='GITHUB_HOST=git.innova-partners.com git'
 eval "$(direnv hook bash)"
 eval "$(hub alias -s)"
+
+eval `ssh-agent -s`
+ssh-add
