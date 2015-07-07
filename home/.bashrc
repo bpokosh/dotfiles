@@ -27,8 +27,13 @@ export SCM_CHECK=true
 # Load Bash It
 source $BASH_IT/bash_it.sh
 
+alias be='bundle exec'
 alias l='ls -la'
+alias g='git'
 alias gpr='git push -u && egit pull-request'
+alias gst='git status'
+alias gl='git pull'
+alias gp='git push'
 alias egit='GITHUB_HOST=git.innova-partners.com git'
 eval "$(direnv hook bash)"
 eval "$(hub alias -s)"
