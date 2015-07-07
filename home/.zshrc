@@ -40,6 +40,6 @@ alias egit='GITHUB_HOST=git.innova-partners.com git'
 eval "$(hub alias -s)"
 export EDITOR='vim'
 export AUTOFEATURE=false
-export PATH=/usr/local/bin:/usr/local/mysql/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/local/sbin:$PATH
+export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/local/mysql/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/local/sbin:$PATH
 export NODE_PATH=/usr/local/lib/node_modules
 eval "$(direnv hook zsh)"
