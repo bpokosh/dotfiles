@@ -7,7 +7,7 @@
 	branch = auto
 [alias]
 	st = status
-	ci = commit
+	ci = commit --verbose
 	co = checkout
   di = diff
   dc = diff --cached
