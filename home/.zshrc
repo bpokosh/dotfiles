@@ -35,8 +35,9 @@ alias b='bundle'
 alias be='bundle exec'
 alias rake='noglob rake'
 alias gpr='git push -u && egit pull-request'
-alias v='vagrant'
-alias egit='GITHUB_HOST=git.innova-partners.com git'
+alias sleepsafe='sudo pmset -a destroyfvkeyonstandby 1 hibernatemode 25'
+alias sleepfast='sudo pmset -a hibernatemode 0'
+alias sleepdefault='sudo pmset -a hibernatemode 3'
 eval "$(hub alias -s)"
 export EDITOR='vim'
 export AUTOFEATURE=false
